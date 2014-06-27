@@ -51,6 +51,7 @@ You can check if a variable exists with `{{ var:exists name="foo" }}`.
 
 {{ var:foo is="bar" }}
 {{ var:exists name="foo" }} // true
+```
 
 ### Extract
 
