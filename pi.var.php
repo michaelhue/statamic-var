@@ -143,7 +143,7 @@ class Plugin_var extends Plugin
         if (!empty($this->content)) {
             $value = trim(Parse::template($this->content, $this->context));
         } else {
-            $value = $this->fetchParam(['is', 'value', 'val'], false);
+            $value = $this->fetchParam(['is', 'value', 'val'], false, null, false, false);
         }
 
         return $value;
